@@ -1,7 +1,6 @@
 package Clases;
 
 import java.util.*;
-
 /**
  *
  * @author Ademir
@@ -12,16 +11,16 @@ public class Mostrar {
    public static void main (String[]args){
         ClaseB Sumador = new ClaseA();
         Sumador.mostrar();
-        ArrayList<Numero> numeros = new ArrayList<>();
-        numeros.add(new Numero(20));
-        numeros.add(new Numero(18));
-        numeros.add(new Numero(5));
-        numeros.add(new Numero(42));
-        numeros.add(new Numero(36));
+        ArrayList<CLASENUMERO> numeros = new ArrayList<>();
+        numeros.add(new CLASENUMERO(20));
+        numeros.add(new CLASENUMERO(18));
+        numeros.add(new CLASENUMERO(5));
+        numeros.add(new CLASENUMERO(42));
+        numeros.add(new CLASENUMERO(36));
         
         Collections.sort(numeros);
         System.out.println("Números ordenados");
-        for(Numero i:numeros){
+        for(CLASENUMERO i:numeros){
             System.out.println(i.numero);
         }
    }

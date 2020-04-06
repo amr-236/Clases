@@ -5,13 +5,13 @@ package Clases;
  */
 //Jefferson Ademir Cruz Garcia - U20190249
 //ING en D.S - POO
-public class Numero extends ClaseA implements Comparable<Numero>{
-    public Numero (int numero){
+public class CLASENUMERO extends ClaseA implements Comparable<CLASENUMERO>{
+    public CLASENUMERO (int numero){
         this.numero=numero;
     }
 
     @Override
-    public int compareTo(Numero o) {
+    public int compareTo(CLASENUMERO o) {
         if(numero==o.numero){
             return 0;
         }
